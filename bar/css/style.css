@@ -1,0 +1,189 @@
+.hdprv{
+	margin:3px;
+	width: 100%;
+	height: 15px;
+}
+.btnhideprv{
+	background-color: #800000;
+	color: #ffffff;
+	border:none;
+	border-radius: 5px;
+	float:right;
+	font-size: 20px;
+	margin-right: 5px;
+}
+.privacy{
+	display: none;
+	border: 1px solid #c3c3c3;
+	border-radius:3px;
+	width: 100%;
+	box-shadow: 1px 2px 1px #000000;
+	padding:1px;
+}
+.btnprv{
+	cursor:pointer;
+}
+.btnprv:hover{
+	color: red;
+}
+body{
+	font-family: arial;
+	margin:0;
+	background-image: linear-gradient(to right,#800000,#FFD700);
+	
+}
+.pur{
+	
+	margin-left:1px; 
+}
+.slctr{
+	width: 100%;
+	text-align: left;
+	
+	margin-top: 20px;
+}
+
+.btnsubmit{
+	background-image: linear-gradient(to left,#235,blue);
+	border:none;
+	color:#ffffff;
+	margin-top: 10px;
+	width: 80%;
+	padding: 15px;
+	border-radius:2px;
+}
+.btnclose{
+	background-image: linear-gradient(to right,red,blue);
+	border:none;
+	color:#ffffff;
+	
+	
+	padding: 10px;
+	border-radius:2px;
+	float:right;
+}
+.if{
+	float:left;
+	margin-left: 27px;
+	margin-top: 10px;
+}
+h1{
+	color:#ffffff;
+	font-family: arial;
+	font-size: 20px;
+}
+.body-header{
+	height:auto;
+	width: 100%;
+	
+}
+a{
+	cursor: pointer;
+}
+.body{
+	z-index: 10;
+	position: center;
+	opacity: 1;
+	background-image: linear-gradient(to right,#800000,#FFD700);
+	height: 100%;
+}
+.bgcover{
+	 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-image: linear-gradient(to right,#800000,#FFD700);
+}
+.body-content{
+	height: auto;
+	width: 400px;
+	border:0.5px solid #f3f3f3;
+	padding:10px;
+	border-radius:5px;
+	background-color: #f3f3f3;
+	padding-bottom: 10px;
+	padding-top: 20px;
+
+}
+.cpy{
+	display: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.inp{
+	width: 80%;
+	padding: 10px;
+	margin-top: 7px;
+}
+.coptile{
+	font-size: 9px;
+}
+.totalcp{
+	font-size:20px;
+}
+.cp{
+	width: 74%;
+	padding: 10px;
+	margin-top: 7px;
+	display: none;
+}
+.purpose{
+	display: block;
+	width: 80%;
+	
+}
+.minus{
+	padding:15px;
+	border-radius: 5px;
+	background-image: linear-gradient(to left,red,#235);
+	margin-top:30px;
+	margin:20px;
+	color:#ffffff;
+}
+.plus{
+	padding:15px;
+	border-radius: 5px;
+	background-image: linear-gradient(to left,blue,#235);
+	margin-top:30px;
+	margin:20px;
+	color:#ffffff;
+}
+.logo{
+	margin-top: 15px;
+	width: 80px;
+	height: 80px;
+	border-radius:50%;
+}
+.footer{
+	width: 100%;
+	color: #235;
+	margin-top:20px;
+	font-size:10px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+.dev{
+	float:left;
+
+}
+
+@media only screen and (max-width: 600px){
+	.body-content{
+	padding:1px;
+	width: 100%;
+	padding-bottom: 10px;
+	border-radius: 0px;
+	}
+	
+	.body-header{
+	
+	width: 100%;
+	
+	}
+	
+	
+}
